@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Bootstrap Tutorial Sample Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-md">
+        <a class="navbar-brand" href="https://en.wikipedia.org/wiki/Sydney">Sydney, Australia</a>
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-navigation">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about-section">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact-section">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header header container-fluid">
+        <div class="overlay"></div>
+
+        <div class="description">
+            <h1>Welcome to the Sydney, Australia!</h1>
+            <p>Welcome to Sydney, with new experiences around every corner. 
+                As the official tourism, destinations and events website, let us guide you through this surprising city.
+                Wildlife, nightlife, the good life. 
+                Hidden restaurants down historic laneways, famous icons on Sydney Harbour, an endless calendar of events. 
+                </p>
+            <p>Golden sands, turquoise oceans, dewy green rainforests. This is Sydney. 
+                Bring the family, your best mates, your soul mate — and feel the city’s heartbeat all year round. 
+                So, where to first?</p>
+            <a href="https://youtu.be/QA_SY4b1tNI?si=QGEirJJrtczWEmyo"><button class="btn btn-outline-secondary btn-lg">Tell Me More!</button></a>
+        </div>
+
+    </header>
+
+    <script src="main.js"></script>
+
+    <div id="about-section" class="container features">
+        <div class="row">
+
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <h3 class="feature-title">Urban Rest North Sydney</h3>
+                <img src="images/column-1.jpeg" class="img-fluid">
+                <p>Urban Rest North Sydney is located in the heart of the North Sydney business district with modern, spacious, 
+                    and beautifully designed apartments, including two exclusive penthouses. All apartments come with a large balcony,
+                     brand-new appliances, and floor-to-ceiling windows. In addition, all guests have access to the shared rooftop 
+                     with stunning views over Sydney Harbour. </p>
+                <p>Choose between studio, one, two, and three-bedroom apartments, all designed to the highest standards that 
+                    emphasise light and space.</p>
+                <p>North Sydney is a suburb and central commercial district on the Lower North Shore of Sydney, just across 
+                    the harbour from the CBD. During the weekdays, office workers fill the contemporary eateries clustered 
+                    around Miller Street. On weekends, locals visit the twice-a-month Northside Produce Market for organic produce 
+                    and gourmet food.</p>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <h3 class="feature-title">Riverside Heaven</h3>
+                <img src="images/column-2.jpg" class="img-fluid">
+                <p>Close your eyes. Take a deep breath in. Exhale. That’s just a taste of the zen you’ll find on this unique nature stay. 
+                    Immerse yourself in nature, wind down and enjoy a more self-sufficient way of life. Enjoy fishing, swimming, 
+                    kayaking, paddle boarding, biking and walking trails. This rare find is nearly two acres of land five minutes 
+                    from the M4 motorway. 10 minutes from Penrith CBS and Westfields at the foot of the beautiful Blue Mountains. 
+                    No facilities here. You must be fully self-contained.</p>
+                <p> Camping is a unique way to accommodate semi-self-sufficient campers. It is an exclusive retreat located on 
+                    Emu Heights on the banks of the magnificent River, overlooking natural environmental waterways. It is accessible 
+                    to RVs, camper trailers, caravans, and big rigs. Camping in tents is allowed. Visitors must be fully self-contained 
+                    as there are no facilities available.</p>
+            </div>
+
+            <div id="contact-section" class="col-lg-4 col-md-4 col-sm-12">
+
+                <h3 class="feature-title">Get in Touch!</h3>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Name" name="">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Email Address" name="email">
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" rows="4"></textarea>
+                </div>
+                <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+            </div>
+
+            
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
